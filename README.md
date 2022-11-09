@@ -1,2 +1,2 @@
-My practice project following W3C The Band templates
+My practice project following W3C The Band templates &
 Git testing
