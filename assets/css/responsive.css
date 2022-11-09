@@ -1,0 +1,105 @@
+
+@media (max-width:calc(1023em/16)) {
+    #content .btn {
+        padding: 17px;
+        width: 100%;
+        font-size: 18px;
+    }
+    #footer .social-list {
+        font-size: 30px;
+        letter-spacing: 15px;
+        
+    }
+    #footer a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    
+    
+}
+@media screen and (min-width:740px) and (max-width:1023px){
+    
+    #content .content-section {
+        width: 800px;
+        max-width: 100%;
+        padding: 112px 0px;
+        margin: 0 auto;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    #header .mobile-menu-btn {
+        display: none;
+    }
+   
+   
+}
+
+/* giao diện mobile */
+@media screen and (max-width:739px){
+
+    #header {
+        overflow: hidden;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+        
+    }
+    #nav .subnav li a {
+        color: #fff;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    
+    #nav li a {
+        padding: 5px 35px;
+        font-size: 15px;
+    }
+    
+    .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+        z-index: 2;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+        width: auto;
+    }
+
+    #content .content-section {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    #content .member-mobile {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+
+    #content .member-avt {
+        width: 60%;
+    }   
+    #content .mobile-full {
+        width: 100%;
+    }
+    #content .s-mt-8 {
+        margin-top: 8px;
+    }
+    .s-mr-8 {
+        margin-right: 26px;
+    }
+    .mobile-columns {
+        margin-left: 0;
+        margin-right: 0;
+        float: left;
+    }
+}
